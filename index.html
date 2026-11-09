@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - AutoClicker</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    h1 { color: #111; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    h2, h3 { color: #222; margin-top: 24px; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    hr { border: 0; border-top: 1px solid #eee; margin: 30px 0; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for AutoClicker</h1>
+  <p><strong>Last updated:</strong> November 9, 2026</p>
+  <p><strong>AMJS</strong> (DUNS: 749702504, "we", "our", or "us") operates the <strong>AutoClicker</strong> mobile application (the "Service"). This Privacy Policy describes how we collect, use, process, and disclose your information when you use our application.</p>
+  <p>By installing, accessing, or using AutoClicker, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+  <hr>
+
+  <h2>1. Information We Collect</h2>
+  <h3>A. Mobile Device Information & Android Version</h3>
+  <p>To ensure compatibility and correct visual calibration for screen automation, we automatically collect:</p>
+  <ul>
+    <li><strong>Device Model and Manufacturer:</strong> (e.g., brand, model identifier, hardware build).</li>
+    <li><strong>Android OS Version:</strong> Your device’s Android API level and release version.</li>
+    <li><strong>Hardware Specifications:</strong> Display resolution, screen density, orientation, and CPU architecture.</li>
+  </ul>
+  <p><em>Purpose:</em> Required to calculate absolute touch coordinate mappings across different displays, calibrate floating widget boundaries (<code>TYPE_APPLICATION_OVERLAY</code>), diagnose app crashes, and ensure system-level compatibility.</p>
+
+  <h3>B. Geolocation Data</h3>
+  <ul>
+    <li><strong>Coarse & Fine Location:</strong> Accessed via your device’s network location or GPS sensors (subject to your explicit Android permission prompt).</li>
+  </ul>
+  <p><em>Purpose:</em> Used by integrated third-party advertising networks (such as Google AdMob) to serve contextually relevant and regional advertisements, prevent fraudulent ad impressions, and comply with tax and regulatory requirements. You can disable location access at any time via Android settings.</p>
+
+  <h3>C. In-App Purchases & Billing</h3>
+  <ul>
+    <li>All in-app purchases, subscriptions, and one-time unlocks are processed directly by <strong>Google Play In-App Billing</strong>.</li>
+    <li><strong>AMJS does not collect, access, or store your credit card, debit card, or banking credentials.</strong></li>
+    <li>We receive only anonymized purchase tokens, order IDs, timestamps, and product SKUs to verify Pro entitlement status.</li>
+  </ul>
+
+  <h3>D. Advertising & Diagnostic Identifiers</h3>
+  <ul>
+    <li><strong>Google Advertising ID (GAID):</strong> Collected by ad networks to manage frequency capping, detect fraud, and provide ads. You can reset or limit this identifier via Android settings (<code>Settings > Google > Ads</code>).</li>
+  </ul>
+  <hr>
+
+  <h2>2. Android AccessibilityService API Usage (Mandatory Disclosure)</h2>
+  <p>AutoClicker requires the use of the Android <strong>AccessibilityService API</strong> (<code>android.permission.BIND_ACCESSIBILITY_SERVICE</code>) to perform its core functions.</p>
+  <ul>
+    <li><strong>Core Purpose:</strong> The AccessibilityService is utilized strictly to perform simulated touch interactions—such as automated taps, repeated clicks, multi-target sequences, and swipe gestures—on your screen based entirely on your custom parameters and timers.</li>
+    <li><strong>Strict Privacy Commitments:</strong>
+      <ul>
+        <li>AutoClicker <strong>does NOT</strong> read, monitor, intercept, or store any on-screen text, typed input, account credentials, passwords, financial data, or personal messages.</li>
+        <li>AutoClicker <strong>does NOT</strong> alter operating system settings or prevent uninstallation.</li>
+        <li>AutoClicker <strong>does NOT</strong> transmit data observed through accessibility events to external servers.</li>
+      </ul>
+    </li>
+    <li><strong>User Consent:</strong> The service is inactive until you explicitly enable it in your device's Accessibility settings. You can revoke this permission at any time.</li>
+  </ul>
+  <hr>
+
+  <h2>3. Third-Party Services</h2>
+  <p>We integrate standard Google Play certified SDKs that process technical data under their respective policies:</p>
+  <ul>
+    <li><strong>Google Play Services / Billing:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+    <li><strong>Google AdMob:</strong> <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Advertising Policies</a></li>
+  </ul>
+  <hr>
+
+  <h2>4. Data Storage & Deletion</h2>
+  <p>All click scripts, target coordinates, and timer configurations are stored locally on your device. We do not store your macro scripts on remote servers. You can permanently delete all local app data by clearing storage via Android settings or uninstalling the app.</p>
+  <hr>
+
+  <h2>5. Contact Information</h2>
+  <p>For questions or data inquiries regarding this Privacy Policy, please contact:</p>
+  <ul>
+    <li><strong>Developer:</strong> AMJS</li>
+    <li><strong>DUNS Number:</strong> 749702504</li>
+    <li><strong>Contact Email:</strong> <a href="mailto:michael.schroter01@gmail.com">michael.schroter01@gmail.com</a></li>
+  </ul>
+</body>
+</html>
